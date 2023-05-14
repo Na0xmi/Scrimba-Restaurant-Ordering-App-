@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+    <html>
+        <head>
+            <title>Ordering App</title>
+            <link rel="shortcut icon" href="#">
+            <link rel="stylesheet" href="styles.css"> 
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <main>
+              <div class="banner">
+                 <h2>Nao's Snacks</h2>
+                 <p id="banner-text">Attack on Snacks</p>
+                    </div>
+                <div class="wrapper" id="menu-options">
+                </div>
+                <div class="order-container" id="order-container">
+                    <h2 class="order-header"> Your Order </h2>
+                    <div id="order-items">
+                    <!--order section goes here-->
+                    </div>
+                </div>
+                    <div id="checkout-container" class="checkout-container">
+                        <div class="total-container">
+                            <p>Total price:</p>
+                            <p id="total-price"></p>
+                        </div>
+                        <button id="checkout-btn" class="checkout-btn">Complete order</button>
+                    </div>
+                </div>
+                <div id="checkout-modal" class="checkout-modal">
+                    <button class="modal-close-btn" id="modal-close-btn">&#10006;</button>
+                    <h2>Enter payment details</h2>
+                    <form method="POST">
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            aria-label="Full name"
+                            placeholder="Full name"
+                            required>
+                        <input
+                            type="number"
+                            name="card"
+                            id="card"
+                            aria-label="Card number"
+                            placeholder="Card number"
+                            required>
+                        <input
+                            type="number"
+                            name="cvv"
+                            id="cvv"
+                            aria-label="CVV"
+                            placeholder="CVV"
+                            required>
+                        <button type="submit" id="payment-btn">Submit payment</button>
+                    </form>
+                </div>
+                </section>
+            </main>   
+        <script src="index.js" type="module"></script>
+        </body>
+    </html>

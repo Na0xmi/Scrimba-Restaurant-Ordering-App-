@@ -1,0 +1,167 @@
+html {
+    margin:0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpZMnxg95Yc2m6kf_blLa6KkYYamIWpxfd6A&usqp=CAU');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: auto;
+    margin-top:10px;
+    background-color: rgb(186, 225, 255, 0.5);
+    width:600px;
+    height:auto;
+    font-size:16px;
+    color:black;
+    border-radius:5px;
+} 
+
+.banner {
+margin-top:0px;
+border-radius:5px;
+color:white;
+width:600px;
+height:200px;
+background-color:rgb(186, 255, 201,0.5);
+}
+
+.banner > h2 {
+    position:relative;
+    top:25%;
+    margin-left:10%;
+    margin-top:0;
+}
+
+#banner-text { 
+    position:relative;
+    top:25%;
+    margin-left:10%;
+}
+
+h2 {
+    font-size:36px;
+    text-align:left;
+}
+
+
+.block {
+    display:block;
+}
+
+#menu-item {
+    padding:0px 10px;
+}
+
+#menu-inner {
+    display:flex;
+    align-items:flex-start;
+    justify-items: center;
+    gap:15%;
+}
+
+
+#menu-icon {
+    font-size:70px;
+    font-family:'Inter';
+}
+
+#menu-text {
+    align-self: center; 
+}
+
+#add-btn {
+    align-self: center;
+    margin-left:auto;
+    right:5%;
+    font-size:20px;
+    color:white;
+    background-color:  	#ffb3ba;
+    border-radius: 50%;
+    border:solid 2px white;
+    height:50px;
+    width:50px;
+}
+
+#price {
+    font-size:18px;
+    font-weight:bold;
+}
+
+.order-container {
+    display: none;
+    margin: 20px 15px;
+}
+
+.order-container h2 {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.order-item {
+    border-bottom: 1px solid #333;
+}
+
+.order-item div {
+    display: flex;
+    align-items: baseline;
+    margin: 8px 0;
+    justify-content: space-between;
+}
+
+/* Checkout Container */ 
+
+
+.checkout-container {
+    padding:20px;
+    font-weight:bold;
+} 
+
+.checkout-btn {
+    padding:10px;
+    border-radius:5px;
+    border:0px;
+    color:white;
+    background-color:#ffb3ba;
+    font-weight:bold;
+}
+
+.checkout-btn:hover {
+    transform:scale(1.1,1.1);
+}
+
+/* Checkout-Modal */ 
+.checkout-modal {
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin:auto;
+    height: 200px;
+    width: 500px;
+    padding:50px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #212529;
+    color: whitesmoke;
+    display:none;
+}
+
+
+/* Checkout Modal */ 
+
+#payment-btn {
+    padding:10px;
+    background-color:rgb(186, 255, 201);
+    margin-top:10px;
+    border:0px;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+#payment-btn:hover {
+    background-color:aquamarine;
+}
+
